@@ -28,7 +28,7 @@ const Navbar = (props: Props) => {
         <DropdownMenuContent>
           <DropdownMenuItem>
             <Image
-              src={"/house.png"}
+              src={"/images/logos/9.png"}
               className="ml-1 mr-3 h-5 w-5  "
               alt="Logo"
               height={100}
@@ -38,7 +38,7 @@ const Navbar = (props: Props) => {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image
-              src={"/teamwork.png"}
+              src={"/images/logos/11.png"}
               className="ml-1 h-5  mr-3 w-5 "
               alt="Logo"
               height={100}
@@ -48,7 +48,7 @@ const Navbar = (props: Props) => {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image
-              src={"/event.png"}
+              src={"/images/logos/8.png"}
               className="ml-1 h-5 w-5  mr-3"
               alt="Logo"
               height={100}
@@ -58,7 +58,7 @@ const Navbar = (props: Props) => {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image
-              src={"/picture.png"}
+              src={"/images/logos/12.png"}
               className="ml-1 h-5 w-5  mr-3"
               alt="Logo"
               height={100}
@@ -68,7 +68,7 @@ const Navbar = (props: Props) => {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image
-              src={"/user.png"}
+              src={"/images/logos/21.png"}
               className="ml-1 h-5 w-5  mr-3"
               alt="Logo"
               height={100}
@@ -78,7 +78,7 @@ const Navbar = (props: Props) => {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image
-              src={"/user.png"}
+              src={"/images/logos/22.png"}
               className="ml-1 h-5 w-5  mr-3"
               alt="Logo"
               height={100}
