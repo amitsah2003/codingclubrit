@@ -1,23 +1,13 @@
 import React from "react"
 import Header from "./_components/Header"
-import Navbar from "./_components/Navbar"
 import Footer from "./_components/Footer"
-import ImageSlider from "./_components/ImageSlider"
 import Notification from "./_components/Notification"
 import OurTeam from "./_components/OurTeam"
-
-import BackgroundVideo from "./_components/BackgroundVideo"
 import { EventsNotification } from "./_components/EventsNotification"
 import Register from "./_components/Register"
-
 import Header2 from "./_components/Header2"
 import Student from "./_components/Student"
-import Text from "./_components/Text"
-
-// import Partner from "./_components/Partner"
-
 type Props = {}
-
 const page = (props: Props) => {
   // const images = ["/3.jpg", "/1.jpeg", "/bbbbb.jpg"]
   return (
@@ -44,10 +34,6 @@ const page = (props: Props) => {
       <div>
         <Student />
       </div>
-
-      {/* <div>
-        <Events />
-      </div> */}
       <div>
         <OurTeam />
       </div>

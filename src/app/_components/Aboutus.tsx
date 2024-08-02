@@ -119,8 +119,8 @@ const Aboutus = (props: Props) => {
           </span>
         </div>
       </div>
-      <div className="py-10 px-10 ml-14 mr-14 text-white  ">
-        <div className="flex flex-col items-center  border border-gray-200 rounded-lg shadow md:flex-row  dark:border-gray-700 dark:bg-gray-800 h-[12rem]  ">
+      <div className=" ml-10 mr-10 text-white  ">
+        <div className="flex flex-col items-center  border border-gray-200 rounded-lg shadow md:flex-row  dark:border-gray-700 dark:bg-gray-800 h-auto  ">
           <div className="  flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800 font-serif">
               RAIPUR INSTITUTE OF TECHNOLOGY (RITEE)
@@ -139,13 +139,6 @@ const Aboutus = (props: Props) => {
               Technical University, Bhilai.
             </p>
           </div>
-          {/* <Image
-            className=" object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg ml-36 mr-10"
-            src={"/Screenshot.png"}
-            alt="image"
-            height={1000}
-            width={1000}
-          /> */}
         </div>
       </div>
       <Footer />

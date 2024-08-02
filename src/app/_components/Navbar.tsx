@@ -76,6 +76,16 @@ const Navbar = (props: Props) => {
             />
             <Link href={"/contact-us"}>Contact</Link>
           </DropdownMenuItem>
+          <DropdownMenuItem>
+            <Image
+              src={"/user.png"}
+              className="ml-1 h-5 w-5  mr-3"
+              alt="Logo"
+              height={100}
+              width={100}
+            />
+            <Link href={"/pdf/1.pdf"}>Download Rulebook</Link>
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

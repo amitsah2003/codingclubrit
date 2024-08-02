@@ -94,41 +94,8 @@ const Header = (props: Props) => {
                     Our Sponsors
                   </a>
                 </li>
-                {/* <a href="https://www.instagram.com/scripting_coders_ritee/?igsh=MWZoaWp4NzltZXh0OQ%3D%3D className="flex items-center >
-                  <Image
-                    src={"/instagram.png"}
-                    className="ml-1 h-10 w-10 rounded-full"
-                    alt="Logo"
-                    height={100}
-                    width={100}
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF75mkbqngqdgAAAY7Wj4IoRa-eeLWhi_yD_zGKG3tgyX30EqRB0PIXOFrxezNIw3ijc_GP6BL1u2vVZO8SeOcQZD9CwBZRjs7HyrMyOS13ZWe5MUO7WXRgMisbi9owYt8L5wo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fscripting-coders%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"
-                  className="flex items-center"
-                >
-                  <Image
-                    src={"/linkedin.png"}
-                    className="ml-1 h-10 w-10 rounded-full"
-                    alt="Logo"
-                    height={100}
-                    width={100}
-                  />
-                </a>
-                <a
-                  href="https://whatsapp.com/channel/0029VaVAhTaEQIakWoucNd3A"
-                  className="flex items-center"
-                >
-                  <Image
-                    src={"/whatsapp.png"}
-                    className="ml-1 h-10 w-10 rounded-xl"
-                    alt="Logo"
-                    height={100}
-                    width={100}
-                  />
-                </a> */}
                 <div className="flex justify-center items-center px- ">
-                  <Link href={"/sp.pdf"}>
+                  <Link href={"/pdf/1.pdf"}>
                     <Button className="bg-transparent text-white border-2 rounded-xl hover:border-blue-900 font-serif">
                       DOWNLOAD RULEBOOK
                     </Button>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 type Props = {}
@@ -9,7 +10,7 @@ const Footer = (props: Props) => {
       <div>
         <footer className="p-4  md:p-8 lg:p-10 dark:bg-gray-800">
           <div className="mx-auto max-w-screen-xl text-center my-1">
-            <a
+            <Link
               href="#"
               className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
             >
@@ -20,10 +21,10 @@ const Footer = (props: Props) => {
                 height={100}
                 width={100}
               />
-            </a>
+            </Link>
             <ul className="flex flex-wrap justify-center items-center  text-gray-900 dark:text-white">
               <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">
+                <Link href="#" className="mr-4 hover:underline md:mr-6">
                   <Image
                     src={"/instagram.png"}
                     className="mr-3 h-5 w-5 "
@@ -31,10 +32,10 @@ const Footer = (props: Props) => {
                     height={100}
                     width={100}
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">
+                <Link href="#" className="mr-4 hover:underline md:mr-6 ">
                   <Image
                     src={"/linkedin.png"}
                     className="mr-3 h-5 w-5 "
@@ -42,10 +43,10 @@ const Footer = (props: Props) => {
                     height={100}
                     width={100}
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">
+                <Link href="#" className="mr-4 hover:underline md:mr-6">
                   <Image
                     src={"/twitter.png"}
                     className="mr-3 h-5 w-5 "
@@ -53,7 +54,7 @@ const Footer = (props: Props) => {
                     height={100}
                     width={100}
                   />
-                </a>
+                </Link>
               </li>
             </ul>
             <p className="my-2 text-gray-500 dark:text-gray-400 font-serif">

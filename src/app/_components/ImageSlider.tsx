@@ -68,15 +68,7 @@ const YourBrandSection = () => {
                       className="w-full h-full mt-3"
                     />
                   </div>
-                  {/* <div className="flex justify-center items-center">
-                  <h1 className="text-white">New Product</h1>
-                </div> */}
                 </Card>
-                {/* <div className="flex justify-center items-center px-2 lg:px-20">
-                <Button className="bg-transparent border-2 rounded-xl ">
-                  Buy Now
-                </Button>
-              </div> */}
               </motion.div>
             )
           )}
