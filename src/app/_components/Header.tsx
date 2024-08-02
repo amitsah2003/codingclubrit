@@ -11,9 +11,9 @@ const Header = (props: Props) => {
       <header>
         <nav className="px-2 lg:px-2  dark:bg-gray-800 ">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-2xl">
-            <a href="https://flowbite.com" className="flex items-center">
+            <a href="#" className="flex items-center">
               <Image
-                src={"/logoo.png"}
+                src={"/images/logos/16.png"}
                 className="mr-3 h-28 w-28 rounded-full"
                 alt="Logo"
                 height={100}
@@ -104,7 +104,7 @@ const Header = (props: Props) => {
               </ul>
               <a href="https://rit.edu.in/" className="flex items-center">
                 <Image
-                  src={"/l1.png"}
+                  src={"/images/logos/14.png"}
                   className=" h-24 w-24 px-2  rounded-xl"
                   alt="Logo"
                   height={100}

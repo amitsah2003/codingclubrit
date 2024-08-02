@@ -36,7 +36,7 @@ const Register = (props: Props) => {
               }
             >
               <Image
-                src={"/instagram.png"}
+                src={"/images/logos/2.png"}
                 alt="Instagram"
                 height={100}
                 width={100}
@@ -49,7 +49,7 @@ const Register = (props: Props) => {
               }
             >
               <Image
-                src={"/linkedin.png"}
+                src={"/images/logos/3.png"}
                 alt="LinkedIn"
                 height={100}
                 width={100}
@@ -60,7 +60,7 @@ const Register = (props: Props) => {
               href={"https://whatsapp.com/channel/0029VaVAhTaEQIakWoucNd3A"}
             >
               <Image
-                src={"/whatsapp.png"}
+                src={"/images/logos/1.png"}
                 alt="WhatsApp"
                 height={100}
                 width={100}

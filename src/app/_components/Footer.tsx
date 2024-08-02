@@ -10,23 +10,23 @@ const Footer = (props: Props) => {
       <div>
         <footer className="p-4  md:p-8 lg:p-10 dark:bg-gray-800">
           <div className="mx-auto max-w-screen-xl text-center my-1">
-            <Link
+            {/* <Link
               href="#"
               className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
             >
               <Image
-                src={"/logo1.png"}
+                src={"/images/logos/1.png"}
                 className="mr-3 h-20 w-20 "
                 alt="Logo"
                 height={100}
                 width={100}
               />
-            </Link>
+            </Link> */}
             <ul className="flex flex-wrap justify-center items-center  text-gray-900 dark:text-white">
               <li>
                 <Link href="#" className="mr-4 hover:underline md:mr-6">
                   <Image
-                    src={"/instagram.png"}
+                    src={"/images/logos/2.png"}
                     className="mr-3 h-5 w-5 "
                     alt="Logo"
                     height={100}
@@ -37,7 +37,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link href="#" className="mr-4 hover:underline md:mr-6 ">
                   <Image
-                    src={"/linkedin.png"}
+                    src={"/images/logos/3.png"}
                     className="mr-3 h-5 w-5 "
                     alt="Logo"
                     height={100}
@@ -48,7 +48,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link href="#" className="mr-4 hover:underline md:mr-6">
                   <Image
-                    src={"/twitter.png"}
+                    src={"/images/logos/4.png"}
                     className="mr-3 h-5 w-5 "
                     alt="Logo"
                     height={100}
