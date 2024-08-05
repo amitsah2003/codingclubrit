@@ -21,10 +21,8 @@ const Register = (props: Props) => {
               className={`mb-3 font-normal text-white text-l dark:text-gray-400 font-serif ${poppins.className}`}
             >
               We offer workshops, coding challenges, project collaborations,
-              guest speakers,
-              <br /> and networking opportunities to help you grow as a coder.
-              <br />
-              Let code together and create amazing things!
+              guest speakers, and networking opportunities to help you grow as a
+              coder. Let code together and create amazing things!
             </p>
             <div className="flex justify-center md:justify-start items-center">
               <Link href={"https://forms.gle/66vj4iFVEy2XJZ937"}>
@@ -34,44 +32,50 @@ const Register = (props: Props) => {
               </Link>
             </div>
           </div>
-          <div className="flex justify-center gap-5 mt-6 md:mt-0 md:ml-auto">
-            <Link
-              href={
-                "https://www.instagram.com/scripting_coders_ritee/?igsh=MWZoaWp4NzltZXh0OQ%3D%3D"
-              }
-            >
-              <Image
-                src={"/images/logos/2.png"}
-                alt="Instagram"
-                height={100}
-                width={100}
-                className="w-14 md:w-14 lg:w-16 rounded-full"
-              />
-            </Link>
-            <Link
-              href={
-                "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF75mkbqngqdgAAAY7Wj4IoRa-eeLWhi_yD_zGKG3tgyX30EqRB0PIXOFrxezNIw3ijc_GP6BL1u2vVZO8SeOcQZD9CwBZRjs7HyrMyOS13ZWe5MUO7WXRgMisbi9owYt8L5wo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fscripting-coders%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"
-              }
-            >
-              <Image
-                src={"/images/logos/3.png"}
-                alt="LinkedIn"
-                height={100}
-                width={100}
-                className="w-14 md:w-14 lg:w-16"
-              />
-            </Link>
-            <Link
-              href={"https://whatsapp.com/channel/0029VaVAhTaEQIakWoucNd3A"}
-            >
-              <Image
-                src={"/images/logos/1.png"}
-                alt="WhatsApp"
-                height={100}
-                width={100}
-                className="w-14 md:w-14 lg:w-16"
-              />
-            </Link>
+          <div className="flex justify-end  gap-2 flex-col w-full">
+            <div className="flex  justify-center gap-5 mt-10 md:mt-0 md:ml-auto">
+              <Link
+                href={
+                  "https://www.instagram.com/scripting_coders_ritee/?igsh=MWZoaWp4NzltZXh0OQ%3D%3D"
+                }
+              >
+                <Image
+                  src={"/images/logos/2.png"}
+                  alt="Instagram"
+                  height={100}
+                  width={100}
+                  className="w-12 md:w-12 lg:w-12 rounded-full"
+                />
+              </Link>
+              <Link
+                href={
+                  "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF75mkbqngqdgAAAY7Wj4IoRa-eeLWhi_yD_zGKG3tgyX30EqRB0PIXOFrxezNIw3ijc_GP6BL1u2vVZO8SeOcQZD9CwBZRjs7HyrMyOS13ZWe5MUO7WXRgMisbi9owYt8L5wo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fscripting-coders%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"
+                }
+              >
+                <Image
+                  src={"/images/logos/3.png"}
+                  alt="LinkedIn"
+                  height={100}
+                  width={100}
+                  className="w-12 md:w-12 lg:w-12"
+                />
+              </Link>
+              <Link
+                href={"https://whatsapp.com/channel/0029VaVAhTaEQIakWoucNd3A"}
+              >
+                <Image
+                  src={"/images/logos/1.png"}
+                  alt="WhatsApp"
+                  height={100}
+                  width={100}
+                  className="w-12 md:w-12 lg:w-12"
+                />
+              </Link>
+            </div>
+
+            <div className="flex lg:justify-end pr-8 text-2xl justify-center items-center">
+              Follow Us
+            </div>
           </div>
         </div>
       </div>

@@ -122,11 +122,11 @@ const Header = (props: Props) => {
               </ul>
               <a href="https://rit.edu.in/" className="flex items-center">
                 <Image
-                  src={"/images/logos/14.png"}
-                  className=" h-24 w-24 px-2  rounded-xl"
+                  src={"/images/logos/24.png"}
+                  className=" h-24 w-28 px-2  rounded-xl"
                   alt="Logo"
-                  height={100}
-                  width={100}
+                  height={1000}
+                  width={1000}
                 />
               </a>
             </div>

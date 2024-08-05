@@ -35,15 +35,11 @@ const OurTeam = (props: Props) => {
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Afzal</a>
               </h3>
-              <p className="font-serif border-amber-400 border bg-yellow-500 w-56 ml-4 rounded-xl text-black">
-                President , Coding Club
-              </p>
-              <ul className="flex justify-center mt-4 space-x-4">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+              <div className="flex justify-center items-center">
+                <p className="font-serif border-amber-400 border bg-yellow-500 sm:justify-between w-56  rounded-xl text-black">
+                  President , Coding Club
+                </p>
+              </div>
             </div>
             <div className="text-center text-white dark:text-gray-400">
               <Image
@@ -56,16 +52,11 @@ const OurTeam = (props: Props) => {
               <h3 className=" text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Amit Sah</a>
               </h3>
-              <p className="font-serif border-amber-400 border bg-yellow-500 w-56 ml-4 rounded-xl text-black">
-                {" "}
-                Vice-President , Coding Club
-              </p>
-              <ul className="flex justify-center mt-4 space-x-4">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+              <div className="flex justify-center items-center">
+                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black ">
+                  Vice-President , Coding Club
+                </p>
+              </div>
             </div>
             <div className="text-center text-white dark:text-gray-400">
               <Image
@@ -78,15 +69,12 @@ const OurTeam = (props: Props) => {
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Purnima Chandrakar</a>
               </h3>
-              <p className="font-serif border-amber-400 border bg-yellow-500 w-56 ml-4 rounded-xl text-black">
-                Secretary , Coding Club
-              </p>
-              <ul className="flex justify-center mt-4 space-x-4">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+
+              <div className="flex justify-center items-center">
+                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black">
+                  Secretary , Coding Club
+                </p>
+              </div>
             </div>
             <div className="text-center text-white dark:text-gray-400">
               <Image
@@ -99,15 +87,11 @@ const OurTeam = (props: Props) => {
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Prakash Tandon</a>
               </h3>
-              <p className="font-serif border-amber-400 border bg-yellow-500 w-56 ml-4 rounded-xl text-black">
-                Treasurer , Coding Club
-              </p>
-              <ul className="flex justify-center mt-4 space-x-4">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+              <div className="flex justify-center items-center">
+                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black">
+                  Treasurer , Coding Club
+                </p>
+              </div>
             </div>
           </div>
         </div>
