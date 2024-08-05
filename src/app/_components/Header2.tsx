@@ -18,12 +18,12 @@ const Header2 = (props: Props) => {
           </div>
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1
-              className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-white  ${orbitron.className}`}
+              className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-white  ${poppins.className}`}
             >
               CODING CLUB
             </h1>
             <h2
-              className={`max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif   ${orbitron.className}`}
+              className={`max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif   ${poppins.className}`}
             >
               Think | Code | Create | Deploy
             </h2>

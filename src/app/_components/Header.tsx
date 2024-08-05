@@ -6,7 +6,7 @@ import Navbar from "./Navbar"
 import { Button } from "@/components/ui/button"
 
 import { cn } from "@/lib/utils"
-import { orbitron } from "../font"
+import { orbitron, poppins } from "../font"
 type Props = {}
 
 const Header = (props: Props) => {
@@ -38,11 +38,11 @@ const Header = (props: Props) => {
             >
               <ul
                 className={cn(
-                  orbitron.className,
+                  poppins.className,
                   "flex flex-col mt-4  lg:flex-row lg:space-x-8 lg:mt-0  text-lg font-extrabold mr-4"
                 )}
               >
-                <li className={cn(orbitron.className, "text-xl")}>
+                <li>
                   <a
                     href="/#"
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 hover:underline "

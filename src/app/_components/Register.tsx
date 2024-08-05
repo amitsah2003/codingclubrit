@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
+import { poppins } from "../font"
 
 type Props = {}
 
@@ -11,10 +12,14 @@ const Register = (props: Props) => {
       <div className="py-10 px-4 md:px-10 lg:px-20  text-white h-full">
         <div className="flex flex-col items-center  border border-gray-900 rounded-lg shadow-2xl md:flex-row md:border-0 dark:border-gray-900 dark:bg-gray-900 dark:hover:bg-gray-900 h-full p-6">
           <div className="flex flex-col justify-between p-4 leading-normal text-center md:text-left">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800  font-serif">
+            <h5
+              className={`mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800  ${poppins.className}`}
+            >
               Join Our Family
             </h5>
-            <p className="mb-3 font-normal text-white text-l dark:text-gray-400 font-serif">
+            <p
+              className={`mb-3 font-normal text-white text-l dark:text-gray-400 font-serif ${poppins.className}`}
+            >
               We offer workshops, coding challenges, project collaborations,
               guest speakers,
               <br /> and networking opportunities to help you grow as a coder.
