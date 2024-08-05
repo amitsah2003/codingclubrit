@@ -1,7 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import { orbitron } from "../font"
-
+import { orbitron, poppins } from "../font"
 type Props = {}
 
 const Header2 = (props: Props) => {
@@ -18,14 +17,18 @@ const Header2 = (props: Props) => {
             />
           </div>
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-white font-serif">
+            <h1
+              className={`max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-white  ${orbitron.className}`}
+            >
               CODING CLUB
             </h1>
-            <h2 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif">
+            <h2
+              className={`max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif   ${orbitron.className}`}
+            >
               Think | Code | Create | Deploy
             </h2>
             <p
-              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${orbitron.className}`}
+              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${poppins.className}`}
             >
               Welcome to our coding club! We are a group of passionate
               individuals who love coding and programming. Our club is a place
