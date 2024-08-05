@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import { orbitron, poppins } from "../font"
+import { Montserrat, orbitron, poppins } from "../font"
 type Props = {}
 
 const Header2 = (props: Props) => {
@@ -28,7 +28,7 @@ const Header2 = (props: Props) => {
               Think | Code | Create | Deploy
             </h2>
             <p
-              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${poppins.className}`}
+              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${Montserrat.className}`}
             >
               Welcome to our coding club! We are a group of passionate
               individuals who love coding and programming. Our club is a place

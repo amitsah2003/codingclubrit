@@ -10,7 +10,7 @@ const Register = (props: Props) => {
   return (
     <div>
       <div className="py-10 px-4 md:px-10 lg:px-20  text-white h-full">
-        <div className="flex flex-col items-center  border border-gray-900 rounded-lg shadow-2xl md:flex-row md:border-0 dark:border-gray-900 dark:bg-gray-900 dark:hover:bg-gray-900 h-full p-6">
+        <div className="flex flex-col items-center  border border-yellow-400 rounded-lg shadow-2xl md:flex-row md:border-0 dark:border-yellow-400 dark:bg-border-yellow-400 dark:hover:bg-border-yellow-400 h-full p-6">
           <div className="flex flex-col justify-between p-4 leading-normal text-center md:text-left">
             <h5
               className={`mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800  ${poppins.className}`}
@@ -28,7 +28,7 @@ const Register = (props: Props) => {
             </p>
             <div className="flex justify-center md:justify-start items-center">
               <Link href={"https://forms.gle/66vj4iFVEy2XJZ937"}>
-                <Button className="bg-transparent text-white border-2 rounded-xl hover:border-blue-900 text-xl font-serif">
+                <Button className="bg-transparent text-white border-2 rounded-xl hover:border-yellow-400 bg-yellow-500  text-xl font-serif">
                   Register Now
                 </Button>
               </Link>

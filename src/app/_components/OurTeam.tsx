@@ -32,7 +32,7 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Afzal</a>
               </h3>
               <p className="font-serif">President , Coding Club</p>
@@ -51,10 +51,13 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Amit Sah</a>
               </h3>
-              <p className="font-serif"> Vice-President , Coding Club</p>
+              <p className="font-serif border-amber-400 border bg-yellow-500 text-black">
+                {" "}
+                Vice-President , Coding Club
+              </p>
               <ul className="flex justify-center mt-4 space-x-4">
                 <li></li>
                 <li></li>
@@ -70,7 +73,7 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Purnima Chandrakar</a>
               </h3>
               <p className="font-serif">Secretary , Coding Club</p>
@@ -89,7 +92,7 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
                 <a href="#">Prakash Tandon</a>
               </h3>
               <p className="font-serif">Treasurer , Coding Club</p>

@@ -20,9 +20,9 @@ const page = (props: Props) => {
           poster="https://via.placeholder.com/800x400.png?text=Video+Poster"
         />
       </div> */}
-      <div>
+      {/* <div>
         <Notification />
-      </div>
+      </div> */}
       {/* <div>
         <ImageSlider />
       </div> */}
