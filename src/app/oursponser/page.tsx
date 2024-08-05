@@ -22,8 +22,8 @@ const Sponsors = (props: Props) => {
                 tech leaders!
               </p>
             </div>
-            <div className="grid gap-8 lg:grid-cols-2">
-              <div className="flex justify-between items-center p-0.5 bg-sky-600 rounded-tr-lg border  shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="grid gap-8 lg:grid-cols-2 ">
+              <div className="flex justify-between items-center p-2  rounded-lg border border-gray-600 shadow-md dark:bg-gray-700 dark:border-gray-900">
                 <div className="flex items-center space-x-4 ">
                   <Image
                     src={"/images/partner/2.png"}
@@ -34,7 +34,7 @@ const Sponsors = (props: Props) => {
                 </div>
               </div>
 
-              <div className="flex justify-between items-center p-0.5 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center p-2  rounded-lg border border-gray-600 shadow-md dark:bg-gray-700 dark:border-gray-900">
                 <div className="flex items-center space-x-4">
                   <Image
                     src={"/images/partner/1.png"}

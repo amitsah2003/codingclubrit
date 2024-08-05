@@ -68,34 +68,34 @@ const GallerySection = (props: Props) => {
       <h1 className="text-white flex justify-center text-4xl font-extrabold font-serif mt-4">
         PAST GLIMPSES
       </h1>
-      <h3 className="text-pink-500  flex justify-center  text-3xl ml-4 font-extrabold font-serif mt-6">
+      <h3 className="text-cyan-700  flex justify-center  text-3xl ml-4 font-extrabold font-serif mt-6">
         Soft Skills Traning Program
       </h3>
-      <ImageSlider images={images1} disha={1} gati={4} />
+      <ImageSlider images={images1} disha={1} gati={3} />
 
       <div>
-        <h3 className="text-pink-500 flex justify-center text-4xl font-extrabold font-serif">
+        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
           Linkedin Sessions For Nursing and Pharmacy
         </h3>
-        <ImageSlider images={images2} disha={0} gati={3} />
+        <ImageSlider images={images2} disha={0} gati={2} />
       </div>
       <div>
-        <h3 className="text-pink-500 flex justify-center text-4xl font-extrabold font-serif">
+        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
           E-Sport
         </h3>
-        <ImageSlider images={images3} disha={1} gati={4} />
+        <ImageSlider images={images3} disha={1} gati={3} />
       </div>
       <div>
-        <h3 className="text-pink-500 flex justify-center text-4xl font-extrabold font-serif">
+        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
           Unboxing Events
         </h3>
-        <ImageSlider images={images4} disha={0} gati={3} />
+        <ImageSlider images={images4} disha={0} gati={2} />
       </div>
       <div>
-        <h3 className="text-pink-500 flex justify-center text-4xl font-extrabold font-serif">
+        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
           Vote For Leader Member
         </h3>
-        <ImageSlider images={images5} disha={1} gati={5} />
+        <ImageSlider images={images5} disha={1} gati={3} />
       </div>
     </div>
   )

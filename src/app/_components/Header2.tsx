@@ -1,5 +1,6 @@
 import Image from "next/image"
 import React from "react"
+import { orbitron } from "../font"
 
 type Props = {}
 
@@ -23,7 +24,9 @@ const Header2 = (props: Props) => {
             <h2 className="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif">
               Think | Code | Create | Deploy
             </h2>
-            <p className="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif">
+            <p
+              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${orbitron.className}`}
+            >
               Welcome to our coding club! We are a group of passionate
               individuals who love coding and programming. Our club is a place
               where you can learn, practice, and collaborate on coding projects

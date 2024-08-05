@@ -14,7 +14,7 @@ type Props = {}
 
 const Navbar = (props: Props) => {
   return (
-    <div className="lg:hidden font-serif ">
+    <div className="lg:hidden font-serif  ">
       <DropdownMenu>
         <DropdownMenuTrigger>
           <Image
@@ -25,7 +25,7 @@ const Navbar = (props: Props) => {
             width={1000}
           />
         </DropdownMenuTrigger>
-        <DropdownMenuContent>
+        <DropdownMenuContent className="bg-cyan-900">
           <DropdownMenuItem>
             <Image
               src={"/images/logos/9.png"}

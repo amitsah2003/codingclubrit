@@ -18,7 +18,7 @@ const Student = (props: Props) => {
           <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white ml-4">
             70+
             <br />
-            Student Enrolled
+            Students Enrolled
           </h5>
         </a>
       </div>
@@ -34,7 +34,7 @@ const Student = (props: Props) => {
         <a href="#">
           <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white ml-4">
             10+ <br />
-            Workshop Complete
+            Workshops Complete
           </h5>
         </a>
       </div>

@@ -16,8 +16,9 @@ const Aboutus = (props: Props) => {
               Scripting Coders
             </h1>
             <p className="max-w-2xl mb-2 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 font-serif">
-              Established In 2024 In Raipur Institutes of Technology, Located in
-              Raipur, Chhattisgarh 100+ Students
+              Founded in 2024 at Raipur Institutes of Technology, Raipur
+              (Chhattisgarh), the program has already engaged over 100+
+              students.
             </p>
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex h-[100%] w-[90%]">
@@ -67,76 +68,79 @@ const Aboutus = (props: Props) => {
         </div>
       </div>
 
-      <div className=" md:grid grid-cols-3  py-8 px-8 ml-2 mr-2  gap-2 sm:gap-2 text-white">
-        <div className="w-full max-w-sm  border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
-          <Image
-            className="w-32 h-32 mb-3 rounded-full shadow-lg"
-            src={"/images/image/1.jpg"}
-            alt="image"
-            height={1000}
-            width={1000}
-          />
-          <h5 className="mb-1 text-xl font-medium text-white dark:text-white">
-            Develop your skills
-          </h5>
-          <span className="text-sm text-white dark:text-gray-400 font-serif">
-            You can learn to create games, animations, websites, and robots
-            alongside your young students at Code Club!
-          </span>
-        </div>
+      <div>
+        <div className=" md:grid grid-cols-3  py-8 px-8 ml-2 mr-2  gap-2 sm:gap-2 text-white">
+          <div className="w-full   border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
+            <Image
+              className="w-32 h-32 mb-3 rounded-full shadow-lg"
+              src={"/images/image/1.jpg"}
+              alt="image"
+              height={1000}
+              width={1000}
+            />
+            <h5 className="mb-1 text-xl font-medium text-white dark:text-white">
+              Develop your skills
+            </h5>
+            <span className="text-sm text-white dark:text-gray-400 font-serif text-justify  px-3 py-2">
+              You can learn to create games, animations, websites, and robots
+              alongside your young students at Code Club!
+            </span>
+          </div>
 
-        <div className="w-full max-w-sm  border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
-          <Image
-            className="w-32 h-32 mb-3 rounded-full shadow-lg"
-            src={"/images/image/2.jpg"}
-            alt="image"
-            height={1000}
-            width={1000}
-          />
-          <h5 className="mb-1 text-xl font-medium text-white dark:text-white font-serif">
-            Resources and support
-          </h5>
-          <span className="text-sm text-white dark:text-gray-400 font-serif">
-            When you start a Code Club or join an existing one, we will give you
-            all the coding projects and support you need!
-          </span>
-        </div>
+          <div className="w-full  border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
+            <Image
+              className="w-32 h-32 mb-3 rounded-full shadow-lg"
+              src={"/images/image/2.jpg"}
+              alt="image"
+              height={1000}
+              width={1000}
+            />
+            <h5 className="mb-1 text-xl font-medium text-white dark:text-white font-serif">
+              Resources and support
+            </h5>
+            <span className="text-sm text-justify text-white dark:text-gray-400 px-3 py-2 font-serif">
+              When you start a Code Club or join an existing one, we will give
+              you all the coding projects and support you need!
+            </span>
+          </div>
 
-        <div className="w-full max-w-sm  border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
-          <Image
-            className="w-32 h-32 mb-3 rounded-full shadow-lg"
-            src={"/images/image/3.jpg"}
-            alt="image"
-            height={1000}
-            width={1000}
-          />
-          <h5 className="mb-1 text-xl font-medium text-whitedark:text-white font-serif">
-            Be part of the community
-          </h5>
-          <span className="text-sm text-white dark:text-gray-400 font-serif">
-            Join more than 500 Code Clubs across India supporting young students
-            to learn to code!
-          </span>
+          <div className="w-full   border border-cyan-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center  ">
+            <Image
+              className="w-32 h-32 mb-3 rounded-full shadow-lg"
+              src={"/images/image/3.jpg"}
+              alt="image"
+              height={1000}
+              width={1000}
+            />
+            <h5 className="mb-1 text-xl font-medium text-whitedark:text-white font-serif">
+              Be part of the community
+            </h5>
+            <span className="text-sm text-justify px-3 py-2 text-white dark:text-gray-400  font-serif">
+              Join more than 500 Code Clubs across India supporting young
+              students to learn to code!
+            </span>
+          </div>
         </div>
       </div>
-      <div className=" ml-10 mr-10 text-white  ">
+
+      <div className=" ml-10 mr-10 text-white ">
         <div className="flex flex-col items-center  border border-gray-200 rounded-lg shadow md:flex-row  dark:border-gray-700 dark:bg-gray-800 h-auto  ">
           <div className="  flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800 font-serif">
               RAIPUR INSTITUTE OF TECHNOLOGY (RITEE)
             </h5>
-            <p className="mb-3 font-normal text-gray-400 dark:text-gray-400 font-serif">
-              Raipur Institute of Technology (RITEE) was established in the year
-              1995 under the aegis of Mahanadi Education Society by a group of
+            <p className="mb-3 font-normal text-gray-400 dark:text-gray-400 text-justify font-serif">
+              Raipur Institute of Technology (RITEE) was established in 1995
+              under the aegis of the Mahanadi Education Society by a group of
               eminent technocrats, industrialists, and management professionals
-              coming from diverse backgrounds – industry, consultancy, academics
-              & social development work with the aim of providing quality &
-              contemporary technical education to the aspiring students, keeping
-              in view the needs and challenges of the third millennium. The
-              institute is approved by All India Council of Technical Education
-              (AICTE) and the State Government Directorate of Technical
-              Education and is affiliated to Chhattisgarh Swami Vivekananda
-              Technical University, Bhilai.
+              from diverse backgrounds, including industry, consultancy,
+              academia, and social development. The aim was to provide quality
+              and contemporary technical education to aspiring students,
+              addressing the needs and challenges of the third millennium. The
+              institute is approved by the All India Council for Technical
+              Education (AICTE) and the State Government Directorate of
+              Technical Education, and is affiliated with Chhattisgarh Swami
+              Vivekananda Technical University, Bhilai.
             </p>
           </div>
         </div>

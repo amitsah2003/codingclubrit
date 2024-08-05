@@ -61,7 +61,6 @@ const Footer = (props: Props) => {
               Raipur Institute of Technology , Mahanadi Education Society, since
               1995,
               <br />
-              Educational institution Chhatauna, Mandir Hasaud
             </p>
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 font-serif">
               © 2021-2025

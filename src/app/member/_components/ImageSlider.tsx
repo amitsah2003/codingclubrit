@@ -65,7 +65,7 @@ const ImageSlider = ({ images, disha, gati }: ImageSliderProps) => {
                 scale: 1.05,
                 boxShadow: "0 0 20px rgba(255, 255, 255, 0.5)",
               }}
-              className="p-2 min-w-[15rem]  min-h-[10rem] px-4  rounded-full border border-sky-300 hover:border-3"
+              className="p-2 min-w-[20rem]  min-h-[15rem] px-4  rounded-full overflow-hidden border border-sky-300 hover:border-3"
             >
               <Card className="bg-transparent border-none">
                 <div>
