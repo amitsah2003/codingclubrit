@@ -7,15 +7,15 @@ type Props = {}
 const Student = (props: Props) => {
   return (
     <div>
-      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+      <div className="mx-auto  max-w-screen-sm lg:mb-16">
         <h2
-          className={`mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white font-serif text-center mt-10 ${poppins.className}`}
+          className={` text-4xl tracking-tight font-extrabold text-white dark:text-white font-serif text-center mt-5 ${poppins.className}`}
         >
           INSIGHTS
         </h2>
       </div>
 
-      <div className="grid lg:grid-cols-3  md:grid-cols-2 gap-4 items-center  justify-center mt-8 md:px-8 lg:px-48">
+      <div className="grid lg:grid-cols-3  md:grid-cols-3 gap-4 items-center  justify-center  md:mr-12 lg:px-48">
         <div className="w-72 p-4 ml-4 border rounded-3xl ">
           <Image
             src={"/images/logos/20.png"}

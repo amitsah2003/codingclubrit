@@ -28,9 +28,9 @@ const Register = (props: Props) => {
             </p>
             <div className="flex justify-center md:justify-start items-center">
               <Link href={"https://forms.gle/66vj4iFVEy2XJZ937"}>
-                <Button className="bg-transparent text-white border-2 rounded-xl hover:border-yellow-400 bg-yellow-500  text-xl font-serif">
+                <div className="bg-transparent p-2 border-2 rounded-xl text-teal-900 bg-yellow-500  text-xl font-serif">
                   Register Now
-                </Button>
+                </div>
               </Link>
             </div>
           </div>
