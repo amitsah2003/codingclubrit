@@ -24,7 +24,10 @@ const Footer = (props: Props) => {
             </Link> */}
             <ul className="flex flex-wrap justify-center items-center  text-gray-900 dark:text-white">
               <li>
-                <Link href="#" className="mr-4 hover:underline md:mr-6">
+                <Link
+                  href="https://www.instagram.com/?hl=en"
+                  className="mr-4 hover:underline md:mr-6"
+                >
                   <Image
                     src={"/images/logos/2.png"}
                     className="mr-3 h-5 w-5 "
@@ -35,7 +38,10 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="mr-4 hover:underline md:mr-6 ">
+                <Link
+                  href="https://www.linkedin.com/feed/"
+                  className="mr-4 hover:underline md:mr-6 "
+                >
                   <Image
                     src={"/images/logos/3.png"}
                     className="mr-3 h-5 w-5 "
@@ -46,7 +52,10 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="mr-4 hover:underline md:mr-6">
+                <Link
+                  href="https://x.com/home"
+                  className="mr-4 hover:underline md:mr-6"
+                >
                   <Image
                     src={"/images/logos/4.png"}
                     className="mr-3 h-5 w-5 "

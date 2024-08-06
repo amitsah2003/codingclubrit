@@ -25,7 +25,9 @@ const Student = (props: Props) => {
             className=" ml-20 h-20 w-20"
           />
           <a href="#">
-            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white ml-4">
+            <h5
+              className={`mb-2 text-xl font-semibold tracking-tight text-yellow-500 dark:text-white ml-4 ${poppins.className}`}
+            >
               70+
               <br />
               Students Enrolled
@@ -42,7 +44,9 @@ const Student = (props: Props) => {
             className=" ml-20 h-20 w-20"
           />
           <a href="#">
-            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white ml-4">
+            <h5
+              className={`mb-2 text-xl font-semibold tracking-tight text-yellow-500 dark:text-white ml-4 ${poppins.className}`}
+            >
               10+ <br />
               Workshops Complete
             </h5>
@@ -58,7 +62,9 @@ const Student = (props: Props) => {
             className=" ml-20 h-20 w-20"
           />
           <a href="#">
-            <h5 className="mb-2 text-2xl font-semibold tracking-tight text-white dark:text-white ml-4">
+            <h5
+              className={`mb-2 text-xl font-semibold tracking-tight text-yellow-500 dark:text-white ml-4 ${poppins.className}`}
+            >
               10+ <br />
               Skilled Instructors
             </h5>

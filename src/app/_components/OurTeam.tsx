@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React from "react"
-import { orbitron, poppins } from "../font"
+import { Montserrat, orbitron, poppins } from "../font"
 
 type Props = {}
 
@@ -16,7 +16,7 @@ const OurTeam = (props: Props) => {
               OUR TEAM
             </h2>
             <p
-              className={`font-light text-white sm:text-xl dark:text-gray-400 font-serif ${poppins.className}`}
+              className={`font-light text-white sm:text-xl dark:text-gray-400 font-serif ${Montserrat.className}`}
             >
               Code Club partners with a worldwide network of non-profit
               organizations to deliver coding education to young people within
@@ -32,11 +32,15 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
+              <h3
+                className={`mb-1 text-2xl font-bold tracking-tight text-white dark:text-white mt-4 ${poppins.className}`}
+              >
                 <a href="#">Afzal</a>
               </h3>
               <div className="flex justify-center items-center">
-                <p className="font-serif border-amber-400 border bg-yellow-500 sm:justify-between w-56  rounded-xl text-black">
+                <p
+                  className={`font-serif border-amber-400 border bg-yellow-500 sm:justify-between w-56  rounded-xl text-black ${poppins.className}`}
+                >
                   President , Coding Club
                 </p>
               </div>
@@ -49,11 +53,15 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className=" text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
+              <h3
+                className={`text-2xl font-bold tracking-tight text-white dark:text-white ${poppins.className} mt-4`}
+              >
                 <a href="#">Amit Sah</a>
               </h3>
               <div className="flex justify-center items-center">
-                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black ">
+                <p
+                  className={`font-serif border-amber-400 border bg-yellow-500 w-60  rounded-xl text-black ${poppins.className} `}
+                >
                   Vice-President , Coding Club
                 </p>
               </div>
@@ -66,12 +74,16 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
+              <h3
+                className={`mb-1 text-2xl font-bold tracking-tight text-white dark:text-white ${poppins.className} mt-4`}
+              >
                 <a href="#">Purnima Chandrakar</a>
               </h3>
 
               <div className="flex justify-center items-center">
-                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black">
+                <p
+                  className={`font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black ${poppins.className}`}
+                >
                   Secretary , Coding Club
                 </p>
               </div>
@@ -84,11 +96,15 @@ const OurTeam = (props: Props) => {
                 height={1000}
                 width={1000}
               />
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4">
+              <h3
+                className={`mb-1 text-2xl font-bold tracking-tight text-white dark:text-white font-serif mt-4 ${poppins.className}`}
+              >
                 <a href="#">Prakash Tandon</a>
               </h3>
               <div className="flex justify-center items-center">
-                <p className="font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black">
+                <p
+                  className={`font-serif border-amber-400 border bg-yellow-500 w-56  rounded-xl text-black ${poppins.className}`}
+                >
                   Treasurer , Coding Club
                 </p>
               </div>

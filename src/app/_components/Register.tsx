@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import { poppins } from "../font"
+import { Montserrat, poppins } from "../font"
 
 type Props = {}
 
@@ -15,10 +15,10 @@ const Register = (props: Props) => {
             <h5
               className={`mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800  ${poppins.className}`}
             >
-              Join Our Family
+              JOIN OUR FAMILY
             </h5>
             <p
-              className={`mb-3 font-normal text-white text-l dark:text-gray-400 font-serif ${poppins.className}`}
+              className={`mb-3 font-normal text-white text-l dark:text-gray-400 font-serif ${Montserrat.className}`}
             >
               We offer workshops, coding challenges, project collaborations,
               guest speakers, and networking opportunities to help you grow as a
@@ -26,7 +26,9 @@ const Register = (props: Props) => {
             </p>
             <div className="flex justify-center md:justify-start items-center">
               <Link href={"https://forms.gle/66vj4iFVEy2XJZ937"}>
-                <div className="bg-transparent p-2 border-2 rounded-xl text-teal-900 bg-yellow-500  text-xl font-serif">
+                <div
+                  className={`bg-transparent p-2 border-2 rounded-xl text-teal-900 bg-yellow-500  text-xl  ${poppins.className}`}
+                >
                   Register Now
                 </div>
               </Link>

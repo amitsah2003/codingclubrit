@@ -16,19 +16,19 @@ const Header2 = (props: Props) => {
               width={1000}
             />
           </div>
-          <div className="mr-auto place-self-center lg:col-span-7">
+          <div className="mr-auto lg:ml-12 place-self-center lg:col-span-7">
             <h1
               className={`max-w-2xl  text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-white  ${poppins.className}`}
             >
               CODING CLUB
             </h1>
             <h2
-              className={`max-w-2xl  text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white text-white font-serif   ${poppins.className}`}
+              className={`max-w-2xl  text-2xl font-extrabold tracking-tight mt-2leading-none md:text-3xl xl:text-4xl dark:text-white text-yellow-500 font-serif   ${poppins.className}`}
             >
               Think | Code | Create | Deploy
             </h2>
             <p
-              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif  ${Montserrat.className}`}
+              className={`max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300 font-serif mt-4 ${Montserrat.className}`}
             >
               Welcome to our coding club! We are a group of passionate
               individuals who love coding and programming. Our club is a place

@@ -1,5 +1,6 @@
 import React from "react"
 import ImageSlider from "./ImageSlider"
+import { poppins } from "@/app/font"
 
 type Props = {}
 
@@ -65,34 +66,46 @@ const GallerySection = (props: Props) => {
   ]
   return (
     <div>
-      <h1 className="text-white flex justify-center text-4xl font-extrabold font-serif mt-4">
+      <h1
+        className={`text-white flex justify-center text-4xl font-extrabold font-serif mt-4 ${poppins.className}`}
+      >
         PAST GLIMPSES
       </h1>
-      <h3 className="text-cyan-700  flex justify-center  text-3xl ml-4 font-extrabold font-serif mt-6">
+      <h3
+        className={`text-cyan-700  flex justify-center  text-3xl ml-4 font-extrabold font-serif mt-6 ${poppins.className}`}
+      >
         Soft Skills Traning Program
       </h3>
       <ImageSlider images={images1} disha={1} gati={3} />
 
       <div>
-        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
+        <h3
+          className={`text-cyan-600 flex justify-center text-4xl font-extrabold font-serif ${poppins.className}`}
+        >
           Linkedin Sessions For Nursing and Pharmacy
         </h3>
         <ImageSlider images={images2} disha={0} gati={2} />
       </div>
       <div>
-        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
+        <h3
+          className={`text-cyan-600 flex justify-center text-4xl font-extrabold font-serif ${poppins.className}`}
+        >
           E-Sport
         </h3>
         <ImageSlider images={images3} disha={1} gati={3} />
       </div>
       <div>
-        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
+        <h3
+          className={`text-cyan-600 flex justify-center text-4xl font-extrabold ${poppins.className}`}
+        >
           Unboxing Events
         </h3>
         <ImageSlider images={images4} disha={0} gati={2} />
       </div>
       <div>
-        <h3 className="text-cyan-600 flex justify-center text-4xl font-extrabold font-serif">
+        <h3
+          className={`text-cyan-600 flex justify-center text-4xl font-extrabold font-serif ${poppins.className}`}
+        >
           Vote For Leader Member
         </h3>
         <ImageSlider images={images5} disha={1} gati={3} />

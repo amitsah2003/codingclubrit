@@ -16,5 +16,3 @@ export const Montserrat = Montserrat_Alternates({
   weight: "400",
   subsets: ["latin"],
 })
-
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');

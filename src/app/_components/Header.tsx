@@ -114,7 +114,9 @@ const Header = (props: Props) => {
                   )}
                 >
                   <Link href={"/pdf/1.pdf"}>
-                    <Button className="bg-transparent text-white border-2 rounded-xl hover:border-blue-900 font-serif">
+                    <Button
+                      className={`bg-transparent text-white border-2 rounded-xl hover:border-blue-900 font-serif ${poppins.className}`}
+                    >
                       DOWNLOAD RULEBOOK
                     </Button>
                   </Link>

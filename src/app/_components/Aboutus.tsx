@@ -2,6 +2,7 @@ import Image from "next/image"
 import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
+import { poppins } from "../font"
 
 type Props = {}
 
@@ -12,10 +13,14 @@ const Aboutus = (props: Props) => {
       <section className=" dark:bg-gray-900">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white font-serif text-white ">
+            <h1
+              className={`max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white font-serif text-white ${poppins.className}`}
+            >
               Scripting Coders
             </h1>
-            <p className="max-w-2xl mb-2 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 font-serif">
+            <p
+              className={`max-w-2xl mb-2 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 ${poppins.className}`}
+            >
               Founded in 2024 at Raipur Institutes of Technology, Raipur
               (Chhattisgarh), the program has already engaged over 100+
               students.
@@ -33,7 +38,7 @@ const Aboutus = (props: Props) => {
         </div>
       </section>
       <div className=" lg:grid grid-cols-2  md:col-span-1 gap-16 py-1  lg:ml-12 lg:mr-12 md:ml-10 md:mr-10 text-white  max-sm:ml-5 max-sm:mr-5">
-        <div className="text-justify leading-loose font-serif">
+        <div className={`text-justify leading-loose  ${poppins.className}`}>
           Welcome to our coding club! We are a group of passionate individuals
           who love coding and programming. Our club is a place where you can
           learn, practice, and collaborate on coding projects with like-minded
@@ -51,7 +56,9 @@ const Aboutus = (props: Props) => {
           coding skills, expand their knowledge, and connect with like-minded
           individuals.
         </div>
-        <div className="text-justify leading-loose font-serif">
+        <div
+          className={`text-justify leading-loose font-serif ${poppins.className}`}
+        >
           Whether you are a beginner or an experienced programmer, there is
           something for everyone in our coding club. By joining the club, you
           can engage in coding-related discussions, share your projects, seek
@@ -78,10 +85,14 @@ const Aboutus = (props: Props) => {
               height={1000}
               width={1000}
             />
-            <h5 className="mb-1 text-xl font-medium text-white dark:text-white">
+            <h5
+              className={`mb-1 text-xl font-medium text-white dark:text-white ${poppins.className}`}
+            >
               Develop your skills
             </h5>
-            <span className="text-sm text-white dark:text-gray-400 font-serif text-justify  px-3 py-2">
+            <span
+              className={`text-sm text-white dark:text-gray-400 font-serif text-justify  px-3 py-2 ${poppins.className}`}
+            >
               You can learn to create games, animations, websites, and robots
               alongside your young students at Code Club!
             </span>
@@ -95,10 +106,14 @@ const Aboutus = (props: Props) => {
               height={1000}
               width={1000}
             />
-            <h5 className="mb-1 text-xl font-medium text-white dark:text-white font-serif">
+            <h5
+              className={`mb-1 text-xl font-medium text-white dark:text-white font-serif ${poppins.className}`}
+            >
               Resources and support
             </h5>
-            <span className="text-sm text-justify text-white dark:text-gray-400 px-3 py-2 font-serif">
+            <span
+              className={`text-sm text-justify text-white dark:text-gray-400 px-3 py-2 font-serif ${poppins.className}`}
+            >
               When you start a Code Club or join an existing one, we will give
               you all the coding projects and support you need!
             </span>
@@ -112,10 +127,14 @@ const Aboutus = (props: Props) => {
               height={1000}
               width={1000}
             />
-            <h5 className="mb-1 text-xl font-medium text-whitedark:text-white font-serif">
+            <h5
+              className={`mb-1 text-xl font-medium text-whitedark:text-white font-serif ${poppins.className}`}
+            >
               Be part of the community
             </h5>
-            <span className="text-sm text-justify px-3 py-2 text-white dark:text-gray-400  font-serif">
+            <span
+              className={`text-sm text-justify px-3 py-2 text-white dark:text-gray-400 ${poppins.className} `}
+            >
               Join more than 500 Code Clubs across India supporting young
               students to learn to code!
             </span>
@@ -126,10 +145,14 @@ const Aboutus = (props: Props) => {
       <div className=" ml-10 mr-10 text-white ">
         <div className="flex flex-col items-center  border border-gray-200 rounded-lg shadow md:flex-row  dark:border-gray-700 dark:bg-gray-800 h-auto  ">
           <div className="  flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800 font-serif">
+            <h5
+              className={`mb-2 text-2xl font-bold tracking-tight text-white dark:text-sky-800 font-serif ${poppins.className}`}
+            >
               RAIPUR INSTITUTE OF TECHNOLOGY (RITEE)
             </h5>
-            <p className="mb-3 font-normal text-gray-400 dark:text-gray-400 text-justify font-serif">
+            <p
+              className={`mb-3 font-normal text-gray-400 dark:text-gray-400 text-justify ${poppins.className}`}
+            >
               Raipur Institute of Technology (RITEE) was established in 1995
               under the aegis of the Mahanadi Education Society by a group of
               eminent technocrats, industrialists, and management professionals
