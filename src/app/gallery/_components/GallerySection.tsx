@@ -48,8 +48,6 @@ const GallerySection = (props: Props) => {
     { id: 6, name: "/images/event/ub6.jpeg" },
     { id: 7, name: "/images/event/ub7.jpeg" },
     { id: 8, name: "/images/event/ub8.jpeg" },
-    { id: 9, name: "/images/event/ub9.jpeg" },
-    { id: 10, name: "/images/event/ub10.jpeg" },
   ]
 
   const images5 = [

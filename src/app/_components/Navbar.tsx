@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import Image from "next/image"
 import Link from "next/link"
+import { poppins } from "../font"
 
 type Props = {}
 
@@ -44,7 +45,23 @@ const Navbar = (props: Props) => {
               height={100}
               width={100}
             />
-            <Link href={"/about-us"}>About us</Link>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger>
+                <Link href={"/about-us"}>About us</Link>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-emerald-900">
+                <DropdownMenuItem className={` ${poppins.className}`}>
+                  <Link href={"/about-us"}>About us</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem className={` ${poppins.className}`}>
+                  <Link href={"/principle"}> Principle’s Message</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem className={` ${poppins.className}`}>
+                  <Link href={"/sectartsirmsg"}> Secretary’s Message</Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Image

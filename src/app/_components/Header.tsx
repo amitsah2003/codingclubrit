@@ -2,6 +2,14 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import Navbar from "./Navbar"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 import { Button } from "@/components/ui/button"
 
@@ -45,24 +53,43 @@ const Header = (props: Props) => {
                 <li>
                   <a
                     href="/#"
-                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0  "
                     aria-current="page"
                   >
                     Home
                   </a>
                 </li>
                 <li>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger className="block py-2 pr-4 pl-3 text-white bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0">
+                      About
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent>
+                      <DropdownMenuItem className={` ${poppins.className}`}>
+                        <Link href={"/about-us"}>About us</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem className={` ${poppins.className}`}>
+                        <Link href={"/principle"}> Principle’s Message</Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuItem className={` ${poppins.className}`}>
+                        <Link href={"/sectartsirmsg"}>Secretary’s Message</Link>
+                      </DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </li>
+
+                {/* <li>
                   <Link
                     href="/about-us"
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 "
                   >
                     About Us
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="/Events"
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700  "
                   >
                     Events
                   </a>
@@ -78,7 +105,7 @@ const Header = (props: Props) => {
                 <li>
                   <a
                     href="/gallery"
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline"
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 "
                   >
                     Gallery
                   </a>
@@ -86,7 +113,7 @@ const Header = (props: Props) => {
                 <li>
                   <a
                     href={"/contact-us"}
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700  "
                   >
                     Contact
                   </a>
@@ -94,7 +121,7 @@ const Header = (props: Props) => {
                 <li>
                   <a
                     href={"/member"}
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700  "
                   >
                     Our Member
                   </a>
@@ -102,7 +129,7 @@ const Header = (props: Props) => {
                 <li>
                   <a
                     href={"/oursponser"}
-                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 hover:underline "
+                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700  "
                   >
                     Our Sponsors
                   </a>
@@ -115,7 +142,7 @@ const Header = (props: Props) => {
                 >
                   <Link href={"/pdf/1.pdf"}>
                     <Button
-                      className={`bg-transparent text-white border-2 rounded-xl hover:border-blue-900 font-serif ${poppins.className}`}
+                      className={`bg-yellow-500 text-white border-2 rounded-xl hover:border-blue-900 font-serif ${poppins.className}`}
                     >
                       DOWNLOAD RULEBOOK
                     </Button>

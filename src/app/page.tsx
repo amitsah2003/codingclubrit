@@ -7,25 +7,15 @@ import { EventsNotification } from "./_components/EventsNotification"
 import Register from "./_components/Register"
 import Header2 from "./_components/Header2"
 import Student from "./_components/Student"
+import TimelineComponent from "./_components/TimelineComponent"
+
 type Props = {}
-const page = (props: Props) => {
+const HomePage = (props: Props) => {
   // const images = ["/3.jpg", "/1.jpeg", "/bbbbb.jpg"]
   return (
     <div>
       <Header />
       <Header2 />
-      {/* <div className="relative w-full h-[320px] lg:h-[500px]">
-        <BackgroundVideo
-          src="/codevideo.mp4"
-          poster="https://via.placeholder.com/800x400.png?text=Video+Poster"
-        />
-      </div> */}
-      {/* <div>
-        <Notification />
-      </div> */}
-      {/* <div>
-        <ImageSlider />
-      </div> */}
 
       <div>
         <EventsNotification />
@@ -37,7 +27,9 @@ const page = (props: Props) => {
       <div>
         <OurTeam />
       </div>
-
+      {/* <div>
+        <TimelineComponent />
+      </div> */}
       <div>
         <Register />
       </div>
@@ -46,4 +38,23 @@ const page = (props: Props) => {
   )
 }
 
-export default page
+export default HomePage
+
+{
+  /* <div className="relative w-full h-[320px] lg:h-[500px]">
+  <BackgroundVideo
+    src="/codevideo.mp4"
+    poster="https://via.placeholder.com/800x400.png?text=Video+Poster"
+  />
+</div> */
+}
+{
+  /* <div>
+  <Notification />
+</div> */
+}
+{
+  /* <div>
+  <ImageSlider />
+</div> */
+}

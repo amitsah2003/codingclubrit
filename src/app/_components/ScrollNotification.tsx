@@ -10,18 +10,28 @@ const ScrollNotification = () => {
     controls.start({
       y: ["0%", "-100%"],
       transition: {
-        duration: 10, // Adjust duration as needed
+        duration: 5, // Adjust duration as needed
         ease: "linear",
         repeat: Infinity,
-        repeatType: "loop",
+        repeatType: "mirror",
       },
     })
   }, [controls])
 
-  const items = Array(10).fill({
-    title: "Everything",
-    description: "Email digest, mentions & all activity.",
-  })
+  const items = [
+    {
+      title: "Vote For Leader",
+      description: "Email digest, mentions & all activity.",
+    },
+    {
+      title: "sah",
+      description: "Email digest,.",
+    },
+    {
+      title: "amit",
+      description: "bjbjsnhfgnfjnsfj",
+    },
+  ]
 
   return (
     <div className="overflow-hidden h-44">

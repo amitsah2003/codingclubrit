@@ -74,7 +74,7 @@ const Footer = (props: Props) => {
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 font-serif">
               © 2021-2025
               <a href="#" className="hover:underline font-serif"></a>. All
-              Rights Reserved.
+              Rights Reserved. Design and maintain by Amit sah.
             </span>
           </div>
         </footer>
