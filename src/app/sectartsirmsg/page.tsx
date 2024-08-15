@@ -16,7 +16,7 @@ const page = (props: Props) => {
           <section className=" dark:bg-gray-900">
             <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
               <Image
-                className="w-full dark:hidden aspect-[9/8]"
+                className="w-full dark:hidden aspect-[13/11]"
                 src={"/images/image/6.jpeg"}
                 alt="dashboard image"
                 height={1000}

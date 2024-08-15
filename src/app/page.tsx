@@ -27,9 +27,7 @@ const HomePage = (props: Props) => {
       <div>
         <OurTeam />
       </div>
-      {/* <div>
-        <TimelineComponent />
-      </div> */}
+
       <div>
         <Register />
       </div>
@@ -39,22 +37,3 @@ const HomePage = (props: Props) => {
 }
 
 export default HomePage
-
-{
-  /* <div className="relative w-full h-[320px] lg:h-[500px]">
-  <BackgroundVideo
-    src="/codevideo.mp4"
-    poster="https://via.placeholder.com/800x400.png?text=Video+Poster"
-  />
-</div> */
-}
-{
-  /* <div>
-  <Notification />
-</div> */
-}
-{
-  /* <div>
-  <ImageSlider />
-</div> */
-}

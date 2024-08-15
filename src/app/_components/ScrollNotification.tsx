@@ -20,16 +20,19 @@ const ScrollNotification = () => {
 
   const items = [
     {
-      title: "Vote For Leader",
-      description: "Email digest, mentions & all activity.",
+      title: "upcoming events",
     },
     {
-      title: "sah",
-      description: "Email digest,.",
+      title: "Soft Skills Traning Program",
     },
     {
-      title: "amit",
-      description: "bjbjsnhfgnfjnsfj",
+      title: "E-Sport",
+    },
+    {
+      title: "Unboxing Events",
+    },
+    {
+      title: "Vote For Leader Member",
     },
   ]
 
@@ -43,7 +46,7 @@ const ScrollNotification = () => {
               <div className="space-y-1">
                 <p className="text-sm font-medium leading-none">{item.title}</p>
                 <p className="text-sm text-muted-foreground">
-                  {item.description}
+                  {/* {item.description} */}
                 </p>
               </div>
             </div>

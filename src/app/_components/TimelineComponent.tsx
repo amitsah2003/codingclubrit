@@ -1,54 +1,51 @@
 "use client"
 
-import React from "react"
+import { FactoryIcon, School } from "lucide-react"
+import React, { useEffect, useState } from "react"
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
-import "react-vertical-timeline-component/style.min.css"
-import { experiencesData } from "@/lib/timelinedata"
-import { useSectionInView } from "@/lib/hooks"
+import "./Style.css"
 
-export default function TimelineComponent() {
-  // const { ref } = useSectionInView("Experience")
+const TimelineComponent = () => {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   return (
-    <section
-      id="Experience"
-      // ref={ref}
-      className="scroll-mt-28 mb-28 sm:mb-40 z-[999]"
-    >
-      <h2>My experience</h2>
-      <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "rgba(255, 255, 255, 0.05)",
-                boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
-                textAlign: "left",
-                padding: "1.3rem 2rem",
-              }}
-              contentArrowStyle={{
-                borderRight: "0.4rem solid rgba(255, 255, 255, 0.5)",
-              }}
-              date={item.date}
-              icon={item.icon}
-              iconStyle={{
-                background: "rgba(255, 255, 255, 0.15)",
-                fontSize: "1.5rem",
-              }}
-            >
-              <h3 className="font-semibold capitalize ">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
-            </VerticalTimelineElement>
-          </React.Fragment>
-        ))}
+    <div style={isClient ? { padding: "20px", minHeight: "100vh" } : {}}>
+      <h1 style={{ textAlign: "center" }}>My Timeline</h1>
+      <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2011 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<FactoryIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Company Name</h4>
+          <p>Worked on developing scalable web applications and services.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2006 - 2010"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<School />}
+        >
+          <h3 className="vertical-timeline-element-title">Bachelors Degree</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            University Name
+          </h4>
+          <p>Studied Computer Science and participated in various projects.</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
-    </section>
+    </div>
   )
 }
+
+export default TimelineComponent

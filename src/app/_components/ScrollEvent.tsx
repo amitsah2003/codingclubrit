@@ -19,16 +19,19 @@ const ScrollEvent = () => {
   }, [controls])
   const items = [
     {
-      title: "Vote For Leader",
-      description: "Email digest, mentions & all activity.",
+      title: "Soft Skills Traning Program",
     },
     {
-      title: "sah",
-      description: "Email digest,.",
+      title: "Linkedin Sessions For Nursing and Pharmacy",
     },
     {
-      title: "amit",
-      description: "bjbjsnhfgnfjnsfj",
+      title: "E-sport",
+    },
+    {
+      title: "Unboxing Events",
+    },
+    {
+      title: "vote for leader member",
     },
   ]
 
@@ -42,7 +45,7 @@ const ScrollEvent = () => {
               <div className="space-y-1">
                 <p className="text-sm font-medium leading-none">{item.title}</p>
                 <p className="text-sm text-muted-foreground">
-                  {item.description}
+                  {/* {item.description} */}
                 </p>
               </div>
             </div>
