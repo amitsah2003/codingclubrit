@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.CODINGCLUB",
+  "appName": "CODINGCLUB",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

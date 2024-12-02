@@ -1,0 +1,7 @@
+{
+  "name": "CODINGCLUB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

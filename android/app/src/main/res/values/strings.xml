@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CODINGCLUB</string>
+    <string name="title_activity_main">CODINGCLUB</string>
+    <string name="package_name">io.ionic.CODINGCLUB</string>
+    <string name="custom_url_scheme">io.ionic.CODINGCLUB</string>
+</resources>
